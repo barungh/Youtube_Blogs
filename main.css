@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  background-color: #fdc0ff;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: #fde2ff;
+  box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+  min-height: 80rem;
+}
+/* #ee05ff */
+
+.heading {
+  display: flex;
+  padding: 2rem;
+  justify-content: start;
+  align-items: center;
+  background-color: #20c20e;
+}
+
+.topic {
+  font-family: 'Roboto Mono', monospace;
+  padding: 1rem;
+  color: #20c20e;
+  background-color:#102542;
+  font-size: 4rem;
+  font-weight: bold;
+  border-radius: .5rem;
+}
+
+
+.contents {
+ display: flex; 
+ flex-direction: column;
+}
+
+.points {
+ display: flex; 
+ margin-left: 3rem;
+ padding: 2rem;
+ font-size: 2.8rem;
+ justify-content: start;
+ align-items: center;
+ /* background-color: orange; */
+}
+
+.number {
+  display: flex;
+  color: #ffdf64;
+  width: 6rem;
+  height: 6rem;
+  /* background-color: #ffdf64; */
+  background-color: #102542;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.point {
+  color: #ee05ff;
+  /* color: #fff; */
+  margin-left: 1rem;
+  padding: 1rem;
+  font-weight: 400;
+  /* background-color: #ee05ff; */
+  background-color: #102542;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  margin-left: 12rem;
+}
+
+.code {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+  color: #20c20e;
+  background-color: #000;
+  font-size: 1.8rem;
+  padding: 2rem;
+  border-radius: 3%
+}
